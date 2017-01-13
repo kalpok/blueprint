@@ -1,6 +1,7 @@
 # runtime and cache directories
 /locals/config
-/uploads
+/locals/runtime
+/locals/uploads
 /web/assets
 /web/admin/assets
 

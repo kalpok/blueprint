@@ -1,5 +1,6 @@
 <?php
 return [
+    'runtimePath' => __DIR__ . '/../runtime/',
     'components' => [
         'db' => require(__DIR__ . '/db.php'),
         'request' => [
