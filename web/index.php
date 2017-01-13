@@ -1,17 +1,19 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL | E_STRICT);
-require(dirname(__FILE__).'/../../cms/helpers/globals.php');
 
+$cms = __DIR__ . '/../../cms';
+
+require($cms . '/helpers/globals.php');
 // comment out the following two lines when deployed to production
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
 
-require(__DIR__ . '/../../cms/vendor/autoload.php');
-require(__DIR__ . '/../../cms/vendor/yiisoft/yii2/Yii.php');
+require($cms . '/vendor/autoload.php');
+require($cms . '/vendor/yiisoft/yii2/Yii.php');
 
-$application = 'frontend';
-$config = require(__DIR__ . '/../../cms/config/merge-configs.php');
+$app = 'frontend';
+$config = require(__DIR__ . '/../locals/config/merge-configs.php');
 
 $application = new yii\web\Application($config);
 $application->run();
