@@ -16,7 +16,7 @@ return [
         ],
         'urlManager' => [
             // uncomment if multilanguage:
-            // 'class' => '\kalpok\i18n\MultiLanguageUrlManager',
+            // 'class' => '\extensions\i18n\language\MultiLanguageUrlManager',
         ]
     ],
     'modules' => require(__DIR__ . '/frontend-modules.php')
