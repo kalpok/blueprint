@@ -17,7 +17,6 @@ return [
             ]*/
         ],
         'mailer' => [
-            'class' => 'kalpok\mailer\Mailer',
             'htmlLayout' => '@theme/views/layouts/mail.php'
         ],
         'cache' => [
