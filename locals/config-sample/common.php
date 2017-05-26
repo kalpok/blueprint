@@ -1,6 +1,9 @@
 <?php
 return [
     'runtimePath' => __DIR__ . '/../runtime/',
+    'aliases' => [
+        '@uploads' => __DIR__ . '/../uploads',
+    ],
     'components' => [
         'db' => require(__DIR__ . '/db.php'),
         'request' => [
@@ -8,7 +11,7 @@ return [
         ],
         'i18n' => [
             // uncomment if multilanguage:
-            /*'languages' => ['fa', 'en']
+            /*'languages' => ['fa', 'en'],
             'translations' => [
                 'theme' => [
                     'class' => 'yii\i18n\PhpMessageSource',
