@@ -4,7 +4,8 @@
 /locals/uploads
 /web/assets
 /web/admin/assets
-
+/locals/themes/*
+!/locals/themes/modernBusiness
 # cache directories
 Thumbs.db
 *.DS_Store
