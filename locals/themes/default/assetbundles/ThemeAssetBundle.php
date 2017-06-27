@@ -1,12 +1,12 @@
 <?php
 
-namespace themes\modernBusiness\assetbundles;
+namespace theme\assetbundles;
 
 use yii\web\AssetBundle;
 
 class ThemeAssetBundle extends AssetBundle
 {
-    public $sourcePath = '@themes/modernBusiness/assets';
+    public $sourcePath = '@theme/assets';
     public $css = [
         'css/modern-business.css',
     ];
@@ -14,7 +14,7 @@ class ThemeAssetBundle extends AssetBundle
         'yii\web\JqueryAsset',
         'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset',
-        'themes\modernBusiness\assetbundles\IEAssetBundle',
-        'themes\modernBusiness\assetbundles\FontAwesomeAsset'
+        'theme\assetbundles\IEAssetBundle',
+        'theme\assetbundles\FontAwesomeAsset'
     ];
 }

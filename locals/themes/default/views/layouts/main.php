@@ -3,7 +3,7 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use themes\modernBusiness\assetbundles\ThemeAssetBundle;
+use theme\assetbundles\ThemeAssetBundle;
 
 $bundle = ThemeAssetBundle::register($this);
 ?>

@@ -1,5 +1,5 @@
 <?php
-namespace themes\modernBusiness\assetbundles;
+namespace theme\assetbundles;
 
 use yii\web\AssetBundle;
 
