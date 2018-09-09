@@ -22,11 +22,13 @@ return [
         'db' => require(__DIR__ . '/db.php')
     ],
     'aliases' => [
+        '@core' => '@app/core',
+        '@config' => '@app/config',
+        '@themes' => '@app/themes',
         '@modules' => '@app/modules',
-        '@extensions' => '@app/extensions'
+        '@extensions' => '@app/extensions',
     ],
     'params' => [
         'adminEmail' => 'admin@example.com',
     ]
 ];
-
